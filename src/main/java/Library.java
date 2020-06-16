@@ -27,6 +27,8 @@ public class Library {
 
     //Add a book to the library
     public void addBook(Book book){
-       this.bookCollection.add(book);
+        if (checkCapacity() == true) {
+            this.bookCollection.add(book);
+        }
     }
 }

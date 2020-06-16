@@ -35,16 +35,15 @@ public class LibraryTest {
     public void checkLibraryHasSpaceLeft(){
         assertEquals(true, library.checkCapacity());
     }
-/*
+
     @Test
-    public void  cantAddBookIfCapacityFull(){
+    public void cantAddBookIfCapacityFull(){
         library.addBook(book);
         library.addBook(book1);
         library.addBook(book2);
         library.addBook(book3);
         assertEquals(3, library.bookCount());
     }
-    
 
- */
+
 }
